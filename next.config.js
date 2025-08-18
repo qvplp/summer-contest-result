@@ -1,5 +1,10 @@
-/** @type {import("next").NextConfig} */
+/** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
+  trailingSlash: true,
+  images: {
+    unoptimized: true
+  },
   experimental: {
     webpackBuildWorker: false,
   },
@@ -8,4 +13,5 @@ const nextConfig = {
     return config;
   },
 };
+
 module.exports = nextConfig;
