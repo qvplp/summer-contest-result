@@ -1,6 +1,5 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: '/result',
   output: 'export',
   distDir: 'out',
   trailingSlash: true,
@@ -16,11 +15,6 @@ const nextConfig = {
   webpack: (config) => {
     config.cache = false;
     return config;
-  },
-  async exportPathMap(defaultPathMap) {
-    return {
-      '/': { page: '/' },
-    }
   },
 };
 
