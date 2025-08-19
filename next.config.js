@@ -1,10 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
+  distDir: 'out',
   trailingSlash: true,
-  assetPrefix: './',
+  skipTrailingSlashRedirect: true,
   images: {
-    unoptimized: true
+    unoptimized: true,
+    loader: 'custom',
+    loaderFile: './imageLoader.js'
   },
   experimental: {
     webpackBuildWorker: false,
