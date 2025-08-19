@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  basePath: '/result',
   output: 'export',
   distDir: 'out',
   trailingSlash: true,
