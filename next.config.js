@@ -17,6 +17,11 @@ const nextConfig = {
     config.cache = false;
     return config;
   },
+  async exportPathMap(defaultPathMap) {
+    return {
+      '/': { page: '/' },
+    }
+  },
 };
 
 module.exports = nextConfig;
