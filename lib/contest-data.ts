@@ -139,7 +139,7 @@ export const contestData = {
     },
     {
       photo: "https://contest001.pinyogram.com/pinyogram-contest-images/gallery/013.jpeg",
-      photographer: "海千山千",
+      photographer: "すーぱーゆーくん",
       model: "香水じゅん",
       title: "佳作",
       comment: "肌が青くなってしまうところを、アンバーのフレアーを画面にいれたことで、全体のバランスが良くなってますね",
@@ -163,7 +163,7 @@ export const contestData = {
       photographer: "けんちゃ",
       model: "もりしょうこ",
       title: "佳作",
-      comment: "わかりやすい日の丸構図で、かつ水着白なのでハイライトとなっているためより胸が強調されています。また表情が非常によい良いです。",
+      comment: "わかりやすい日の丸構図で、かつ水着白なのでハイライトとなっているためより胸が強調されています。また表情が非常に良いです。",
     },
     {
       photo: "https://contest001.pinyogram.com/pinyogram-contest-images/gallery/017.jpg",
