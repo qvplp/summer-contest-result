@@ -1,4 +1,3 @@
-import type React from "react"
 import type { Metadata } from "next"
 import { Noto_Sans_JP } from "next/font/google"
 import "./globals.css"
@@ -12,7 +11,7 @@ const notoSansJP = Noto_Sans_JP({
 export const metadata: Metadata = {
   title: "Pinyogram Summer Photo Contest 2025 - 結果発表",
   description: "Pinyogram Summer Photo Contest 2025の結果発表ページです。夏のポートレートコンテストの受賞作品をご覧いただけます。",
-  keywords: "Pinyogram, フォトコンテスト, 夏, ポートレート, 写真コンテスト, 2024, ぴにょぐらむ",
+  keywords: "Pinyogram, フォトコンテスト, 夏, ポートレート, 写真コンテスト, 2025, ぴにょぐらむ",
   authors: [{ name: "Pinyogram" }],
   generator: "Next.js",
   openGraph: {
@@ -58,9 +57,9 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode
-}>) {
+}) {
   return (
     <html lang="ja" className={notoSansJP.variable}>
       <body className="font-sans antialiased">{children}</body>
