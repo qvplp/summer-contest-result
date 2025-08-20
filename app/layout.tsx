@@ -10,9 +10,50 @@ const notoSansJP = Noto_Sans_JP({
 })
 
 export const metadata: Metadata = {
-  title: "フォトコンテスト結果発表 | Pinyogram Summer Photo Contest 2024",
-  description: "Pinyogram Summer Photo Contest 2024の結果発表ページです。",
-  generator: "v0.app",
+  title: "Pinyogram Summer Photo Contest 2024 - 結果発表",
+  description: "Pinyogram Summer Photo Contest 2024の結果発表ページです。夏のポートレートコンテストの受賞作品をご覧いただけます。",
+  keywords: "Pinyogram, フォトコンテスト, 夏, ポートレート, 写真コンテスト, 2024, ぴにょぐらむ",
+  authors: [{ name: "Pinyogram" }],
+  generator: "Next.js",
+  openGraph: {
+    title: "Pinyogram Summer Photo Contest 2024 - 結果発表",
+    description: "夏のポートレートコンテストの受賞作品を発表！素晴らしい作品の数々をご覧ください。",
+    url: "https://result.pinyogram.com",
+    siteName: "Pinyogram Contest",
+    images: [
+      {
+        url: "https://contest001.pinyogram.com/pinyogram-contest-images/gallery/001.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Pinyogram Summer Photo Contest 2024"
+      }
+    ],
+    locale: "ja_JP",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Pinyogram Summer Photo Contest 2024 - 結果発表",
+    description: "夏のポートレートコンテストの受賞作品を発表！",
+    images: ["https://contest001.pinyogram.com/pinyogram-contest-images/gallery/001.jpg"],
+    site: "@pinyo_jp",
+    creator: "@pinyo_jp"
+  },
+  alternates: {
+    canonical: "https://result.pinyogram.com"
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  viewport: "width=device-width, initial-scale=1",
 }
 
 export default function RootLayout({

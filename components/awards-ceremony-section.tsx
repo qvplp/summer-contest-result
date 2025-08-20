@@ -6,6 +6,33 @@ import { Badge } from "@/components/ui/badge"
 import { Calendar, MapPin, Users, Clock, Award, Camera } from "lucide-react"
 
 export default function AwardsCeremonySection() {
+  const models = [
+    {
+      name: "姫野みなみ",
+      photo: "https://contest001.pinyogram.com/pinyogram-contest-images/models/JPEG%E7%94%BB%E5%83%8F-4881-81B0-CA-0.jpeg",
+      bgColor: "bg-pink-100",
+      textColor: "text-pink-700"
+    },
+    {
+      name: "長谷川晴奈",
+      photo: "https://contest001.pinyogram.com/pinyogram-contest-images/models/JPEG%E7%94%BB%E5%83%8F-416A-98B6-41-0.jpeg",
+      bgColor: "bg-purple-100",
+      textColor: "text-purple-700"
+    },
+    {
+      name: "雛なの",
+      photo: "https://contest001.pinyogram.com/pinyogram-contest-images/models/IMG_8FFB18914A46-1.jpeg",
+      bgColor: "bg-blue-100",
+      textColor: "text-blue-700"
+    },
+    {
+      name: "くりえみ",
+      photo: "https://contest001.pinyogram.com/pinyogram-contest-images/models/kuriemi.png",
+      bgColor: "bg-green-100",
+      textColor: "text-green-700"
+    }
+  ]
+
   return (
     <section className="py-20 bg-gradient-to-br from-pink-50 via-purple-50 to-blue-50">
       <div className="max-w-7xl mx-auto px-4">
@@ -129,14 +156,24 @@ export default function AwardsCeremonySection() {
                       </div>
                     </div>
                     
-                    {/* 出演モデル */}
+                    {/* 出演モデル - 写真付きバージョン */}
                     <div className="bg-white rounded-xl p-6 shadow-sm">
-                      <p className="text-lg font-semibold text-gray-800 mb-4">出演モデル</p>
-                      <div className="flex flex-wrap justify-center gap-4">
-                        <Badge className="bg-pink-100 text-pink-700 px-4 py-2 text-base">姫野みなみ</Badge>
-                        <Badge className="bg-purple-100 text-purple-700 px-4 py-2 text-base">長谷川晴奈</Badge>
-                        <Badge className="bg-blue-100 text-blue-700 px-4 py-2 text-base">雛なの</Badge>
-                        <Badge className="bg-green-100 text-green-700 px-4 py-2 text-base">くりえみ</Badge>
+                      <p className="text-lg font-semibold text-gray-800 mb-6">出演モデル</p>
+                      <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+                        {models.map((model) => (
+                          <div key={model.name} className="flex flex-col items-center">
+                            <div className="w-24 h-24 md:w-28 md:h-28 rounded-full overflow-hidden mb-3 border-4 border-white shadow-xl">
+                              <img
+                                src={model.photo}
+                                alt={model.name}
+                                className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
+                              />
+                            </div>
+                            <Badge className={`${model.bgColor} ${model.textColor} px-4 py-2 text-sm font-semibold`}>
+                              {model.name}
+                            </Badge>
+                          </div>
+                        ))}
                       </div>
                     </div>
                   </div>
@@ -165,18 +202,18 @@ export default function AwardsCeremonySection() {
           </CardContent>
         </Card>
 
-            {/* 注意事項 */}
-            <Card className="mt-8 bg-white/80 backdrop-blur-sm">
-              <CardContent className="p-6">
-                <h4 className="font-semibold text-gray-800 mb-3">ご参加にあたって</h4>
-                <ul className="text-sm text-gray-600 space-y-2">
-                  <li>• 表彰式は無料でご参加いただけます（要事前申込）</li>
-                  <li>• セッション撮影会は有料となります（詳細は申込ページにて）</li>
-                  <li>• 会場へのアクセス：JR秋葉原駅より徒歩5分</li>
-                  <li>• お問い合わせ：account@pinyogram.com</li>
-                </ul>
-              </CardContent>
-            </Card>
+        {/* 注意事項 */}
+        <Card className="mt-8 bg-white/80 backdrop-blur-sm">
+          <CardContent className="p-6">
+            <h4 className="font-semibold text-gray-800 mb-3">ご参加にあたって</h4>
+            <ul className="text-sm text-gray-600 space-y-2">
+              <li>• 表彰式は無料でご参加いただけます（要事前申込）</li>
+              <li>• セッション撮影会は有料となります（詳細は申込ページにて）</li>
+              <li>• 会場へのアクセス：JR秋葉原駅より徒歩5分</li>
+              <li>• お問い合わせ：account@pinyogram.com</li>
+            </ul>
+          </CardContent>
+        </Card>
       </div>
     </section>
   )
