@@ -10,13 +10,13 @@ const notoSansJP = Noto_Sans_JP({
 })
 
 export const metadata: Metadata = {
-  title: "Pinyogram Summer Photo Contest 2024 - 結果発表",
-  description: "Pinyogram Summer Photo Contest 2024の結果発表ページです。夏のポートレートコンテストの受賞作品をご覧いただけます。",
+  title: "Pinyogram Summer Photo Contest 2025 - 結果発表",
+  description: "Pinyogram Summer Photo Contest 2025の結果発表ページです。夏のポートレートコンテストの受賞作品をご覧いただけます。",
   keywords: "Pinyogram, フォトコンテスト, 夏, ポートレート, 写真コンテスト, 2024, ぴにょぐらむ",
   authors: [{ name: "Pinyogram" }],
   generator: "Next.js",
   openGraph: {
-    title: "Pinyogram Summer Photo Contest 2024 - 結果発表",
+    title: "Pinyogram Summer Photo Contest 2025 - 結果発表",
     description: "夏のポートレートコンテストの受賞作品を発表！素晴らしい作品の数々をご覧ください。",
     url: "https://result.pinyogram.com",
     siteName: "Pinyogram Contest",
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
         url: "https://contest001.pinyogram.com/pinyogram-contest-images/gallery/001.jpg",
         width: 1200,
         height: 630,
-        alt: "Pinyogram Summer Photo Contest 2024"
+        alt: "Pinyogram Summer Photo Contest 2025"
       }
     ],
     locale: "ja_JP",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Pinyogram Summer Photo Contest 2024 - 結果発表",
+    title: "Pinyogram Summer Photo Contest 2025 - 結果発表",
     description: "夏のポートレートコンテストの受賞作品を発表！",
     images: ["https://contest001.pinyogram.com/pinyogram-contest-images/gallery/001.jpg"],
     site: "@pinyo_jp",
