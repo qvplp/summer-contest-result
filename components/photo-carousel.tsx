@@ -89,11 +89,12 @@ export default function PhotoCarousel() {
         {/* タイトルテキスト */}
         <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
           <div className="text-center text-white">
-            <h1 className="text-5xl md:text-7xl font-bold mb-6">
-              <span className="bg-gradient-to-r from-pink-400 via-purple-400 to-blue-400 bg-clip-text text-transparent drop-shadow-2xl">
-                ぴにょぐらむコラボ撮影
+            <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold mb-6 px-2 sm:px-4">
+              <span className="bg-gradient-to-r from-pink-400 via-purple-400 to-blue-400 bg-clip-text text-transparent drop-shadow-2xl block sm:inline-block">
+                <span className="inline-block">ぴにょぐらむ</span>
+                <span className="inline-block">コラボ撮影</span>
               </span>
-              <br />
+              <br className="hidden sm:block" />
               <span className="bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent drop-shadow-2xl">
                 コンテスト
               </span>

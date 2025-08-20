@@ -76,33 +76,9 @@ export default function EventInfo() {
                   </p>
                 </div>
               </div>
-              
-              <Button variant="outline" className="w-full border-orange-400 text-orange-600 hover:bg-orange-50">
-                最新情報をメールで受け取る
-                <ArrowRight className="w-4 h-4 ml-2" />
-              </Button>
             </CardContent>
           </Card>
         </div>
-
-        {/* お知らせバナー */}
-        <Card className="mt-8 bg-gradient-to-r from-blue-50 to-purple-50 border-purple-200">
-          <CardContent className="p-6">
-            <div className="flex flex-col md:flex-row items-center justify-between">
-              <div className="mb-4 md:mb-0">
-                <h4 className="font-bold text-purple-800 text-lg">📸 ぴにょぐらむ公式SNSをフォロー</h4>
-                <p className="text-purple-600 text-sm mt-1">
-                  最新の撮影会情報やコンテスト情報をいち早くお届けします
-                </p>
-              </div>
-              <div className="flex space-x-3">
-                <Button size="sm" variant="outline" className="border-purple-400 text-purple-600">
-                  Twitter
-                </Button>
-              </div>
-            </div>
-          </CardContent>
-        </Card>
       </div>
     </section>
   )

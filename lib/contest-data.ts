@@ -126,9 +126,9 @@ export const contestData = {
     {
       photo: "https://contest001.pinyogram.com/pinyogram-contest-images/gallery/011.jpeg",
       photographer: "スキンヘッド",
-      model: "鹿のばんび",
+      model: "鹿乃バンビ",
       title: "佳作",
-      comment: "くりえみコメント作成",
+      comment: "",
     },
     {
       photo: "https://contest001.pinyogram.com/pinyogram-contest-images/gallery/012.jpg",

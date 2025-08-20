@@ -34,7 +34,7 @@ export default function JudgesSection() {
                   <h3 className="font-bold text-xl mb-2 text-gray-800">{judge.name}</h3>
                   <p className="text-sm text-purple-600 font-medium mb-4">{judge.title}</p>
                   {judge.bio && (
-                    <p className="text-sm text-gray-600 leading-relaxed line-clamp-4 hover:line-clamp-none transition-all">
+                    <p className="text-sm text-gray-600 leading-relaxed transition-all">
                       {judge.bio}
                     </p>
                   )}
@@ -54,7 +54,7 @@ export default function JudgesSection() {
               <div className="bg-white/70 backdrop-blur-sm rounded-lg p-6">
                 <h4 className="font-semibold text-purple-700 mb-3">応募総数と印象</h4>
                 <p>
-                  今回のPinyogram Summer Photo Contest 2024には、全国から500点を超える素晴らしい作品が寄せられました。
+                  今回のぴにょぐらむコラボ撮影コンテストには、全国から500点を超える素晴らしい作品が寄せられました。
                   どの作品も夏の魅力を独自の視点で捉えており、審査員一同、選考に大変苦労いたしました。
                 </p>
               </div>
