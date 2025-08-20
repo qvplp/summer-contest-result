@@ -21,10 +21,10 @@ export const metadata: Metadata = {
     siteName: "Pinyogram Contest",
     images: [
       {
-        url: "https://contest001.pinyogram.com/pinyogram-contest-images/gallery/001.jpg",
+        url: "hhttps://contest001.pinyogram.com/pinyogram-contest-images/ogp/Screenshot%202025-08-21%20at%201.33.25.png",
         width: 1200,
         height: 630,
-        alt: "Pinyogram Summer Photo Contest 2025"
+        alt: "ぴにょぐらむコラボ撮影会 - 結果発表"
       }
     ],
     locale: "ja_JP",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   twitter: {
     title: "ぴにょぐらむコラボ撮影コンテスト結果発表",
     description: "ぴにょぐらむコラボ撮影コンテストの受賞作品を発表！",
-    images: ["https://contest001.pinyogram.com/pinyogram-contest-images/gallery/001.jpg"],
+    images: ["https://contest001.pinyogram.com/pinyogram-contest-images/ogp/Screenshot%202025-08-21%20at%201.33.25.png"],
     site: "@pinyo_jp",
     creator: "@pinyo_jp"
   },
