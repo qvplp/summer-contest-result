@@ -207,9 +207,9 @@ export default function AwardsCeremonySection() {
           <CardContent className="p-6">
             <h4 className="font-semibold text-gray-800 mb-3">ご参加にあたって</h4>
             <ul className="text-sm text-gray-600 space-y-2">
-              <li>• 表彰式は無料でご参加いただけます（要事前申込）</li>
-              <li>• セッション撮影会は有料となります（詳細は申込ページにて）</li>
-              <li>• 会場へのアクセス：JR秋葉原駅より徒歩5分</li>
+              <li>• 表彰式は無料でご参加いただけます</li>
+              <li>• セッション撮影会は有料となります（詳細は申込フォームにて）</li>
+              <li>• 会場へのアクセス：〒111-0053 東京都台東区浅草橋５丁目３−２ 秋葉原スクエアビル ４F</li>
               <li>• お問い合わせ：account@pinyogram.com</li>
             </ul>
           </CardContent>
