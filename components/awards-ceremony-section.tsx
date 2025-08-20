@@ -75,7 +75,7 @@ export default function AwardsCeremonySection() {
                     <MapPin className="w-5 h-5 text-blue-500 mt-0.5" />
                     <div>
                       <p className="font-semibold text-gray-800">会場</p>
-                      <p className="text-gray-600">秋葉原 Gスタジオ</p>
+                      <p className="text-gray-600">秋葉原 Gスタ</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-4 p-3 bg-green-50 rounded-lg">
@@ -209,7 +209,7 @@ export default function AwardsCeremonySection() {
             <ul className="text-sm text-gray-600 space-y-2">
               <li>• 表彰式は無料でご参加いただけます</li>
               <li>• セッション撮影会は有料となります（詳細は申込フォームにて）</li>
-              <li>• 会場へのアクセス：〒111-0053 東京都台東区浅草橋５丁目３−２ 秋葉原スクエアビル ４F</li>
+              <li>• 会場へのアクセス：Gスタ　〒111-0053 東京都台東区浅草橋５丁目３−２ 秋葉原スクエアビル ４F</li>
               <li>• お問い合わせ：account@pinyogram.com</li>
             </ul>
           </CardContent>
