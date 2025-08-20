@@ -7,7 +7,15 @@ const nextConfig = {
   images: {
     unoptimized: true,
     loader: 'custom',
-    loaderFile: './imageLoader.js'
+    loaderFile: './imageLoader.js',
+    domains: ['contest001.pinyogram.com'],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'contest001.pinyogram.com',
+        pathname: '/pinyogram-contest-images/**',
+      },
+    ],
   },
   experimental: {
     webpackBuildWorker: false,
