@@ -43,6 +43,21 @@ export default function Home() {
 
       {/* フッター */}
       <footer className="bg-gradient-to-r from-gray-900 to-gray-800 text-white">
+        {/* SNSリンク */}
+        <div className="max-w-7xl mx-auto px-4 py-8 flex justify-center">
+          
+            href="https://x.com/pinyo_jp"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 px-6 py-3 bg-black text-white rounded-full hover:bg-gray-800 transition-colors"
+          >
+            <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+            </svg>
+            @pinyo_jp で最新情報をチェック
+          </a>
+        </div>
+        
         {/* コピーライト */}
         <div className="border-t border-gray-700">
           <div className="max-w-7xl mx-auto px-4 py-6">
