@@ -31,8 +31,8 @@ export const metadata: Metadata = {
     type: "website",
   },
   twitter: {
-    title: "ぴにょぐらむコラボ撮影会結果発表",
-    description: "夏のポートレートコンテストの受賞作品を発表！",
+    title: "ぴにょぐらむコラボ撮影コンテスト結果発表",
+    description: "ぴにょぐらむコラボ撮影コンテストの受賞作品を発表！",
     images: ["https://contest001.pinyogram.com/pinyogram-contest-images/gallery/001.jpg"],
     site: "@pinyo_jp",
     creator: "@pinyo_jp"
