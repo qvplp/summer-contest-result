@@ -45,7 +45,7 @@ export default function Home() {
       <footer className="bg-gradient-to-r from-gray-900 to-gray-800 text-white">
         {/* SNSリンク */}
         <div className="max-w-7xl mx-auto px-4 py-8 flex justify-center">
-          
+          <a
             href="https://x.com/pinyo_jp"
             target="_blank"
             rel="noopener noreferrer"
