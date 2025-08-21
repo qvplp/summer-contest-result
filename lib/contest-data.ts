@@ -196,7 +196,7 @@ export const contestData = {
     {
       photo: "https://contest001.pinyogram.com/pinyogram-contest-images/gallery/021.JPG",
       photographer: "噂のサブアカ",
-      model: "夏実晴香",
+      model: "",
       title: "佳作",
       comment: "表情のタイミングとしぐさがのバランスが良い。背景の処理も気持ちいい",
     },
