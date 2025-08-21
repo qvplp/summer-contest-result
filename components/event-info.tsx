@@ -31,7 +31,6 @@ export default function EventInfo() {
                   <div className="flex items-start justify-between">
                     <div>
                       <p className="font-bold text-purple-800 text-lg">9月16日（月・祝）</p>
-                      <p className="text-purple-700 font-semibold mt-1">一般参加者向け撮影会</p>
                     </div>
                     <Users className="w-6 h-6 text-purple-500" />
                   </div>

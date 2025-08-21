@@ -34,7 +34,7 @@ export default function ParticipationReward() {
             <p className="text-lg mb-8 opacity-90">コンテストにご参加いただいた全ての皆様に感謝を込めて</p>
 
             <div className="bg-white/20 backdrop-blur-sm rounded-lg p-6 mb-6">
-              <p className="text-sm mb-2 opacity-80">クーポンコード:</p>
+
               <div className="flex items-center justify-center space-x-4">
                 <span className="text-2xl font-mono font-bold tracking-wider">{couponCode}</span>
                 <Button

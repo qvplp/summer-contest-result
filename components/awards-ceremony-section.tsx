@@ -3,35 +3,55 @@
 import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
-import { Calendar, MapPin, Users, Clock, Award, Camera } from "lucide-react"
+import { Calendar, MapPin, Users, Clock, Award, Camera, Twitter } from "lucide-react"
 
 export default function AwardsCeremonySection() {
-  const models = [
+  const mainModels = [
     {
-      name: "姫野みなみ",
+       name: "（まろ）",
+      photo: "https://contest001.pinyogram.com/pinyogram-contest-images/models/IMG_6E043D7D2E67-1.jpeg",
+      bgColor: "bg-orange-100",
+      textColor: "text-orange-700",
+      xLink: "https://x.com/cos_maro?s=21"
+      
+    },
+
+    {
+       name: "姫野みなみ",
       photo: "https://contest001.pinyogram.com/pinyogram-contest-images/models/JPEG%E7%94%BB%E5%83%8F-4881-81B0-CA-0.jpeg",
       bgColor: "bg-pink-100",
-      textColor: "text-pink-700"
+      textColor: "text-pink-700",
+      xLink: "https://x.com/minamihimeno000?s=21"     
+     
     },
+
     {
-      name: "長谷川晴奈",
+      
+ name: "長谷川晴奈",
       photo: "https://contest001.pinyogram.com/pinyogram-contest-images/models/JPEG%E7%94%BB%E5%83%8F-416A-98B6-41-0.jpeg",
       bgColor: "bg-purple-100",
-      textColor: "text-purple-700"
+      textColor: "text-purple-700",
+      xLink: "https://x.com/hasegawa_haruna?s=21"
+      
     },
+
     {
       name: "雛なの",
       photo: "https://contest001.pinyogram.com/pinyogram-contest-images/models/IMG_8FFB18914A46-1.jpeg",
       bgColor: "bg-blue-100",
-      textColor: "text-blue-700"
-    },
-    {
-      name: "くりえみ",
-      photo: "https://contest001.pinyogram.com/pinyogram-contest-images/models/kuriemi.png",
-      bgColor: "bg-green-100",
-      textColor: "text-green-700"
+      textColor: "text-blue-700",
+      xLink: "https://x.com/nano_cats0923?s=21"
+     
     }
   ]
+
+  const specialModel = {
+    name: "くりえみ",
+    photo: "https://contest001.pinyogram.com/pinyogram-contest-images/models/kuriemi.png",
+    bgColor: "bg-green-100",
+    textColor: "text-green-700",
+    xLink: "https://x.com/kurita__emi?s=21"
+  }
 
   return (
     <section className="py-20 bg-gradient-to-br from-pink-50 via-purple-50 to-blue-50">
@@ -156,11 +176,11 @@ export default function AwardsCeremonySection() {
                       </div>
                     </div>
                     
-                    {/* 出演モデル - 写真付きバージョン */}
-                    <div className="bg-white rounded-xl p-6 shadow-sm">
+                    {/* 出演モデル - メインモデル */}
+                    <div className="bg-white rounded-xl p-6 shadow-sm mb-6">
                       <p className="text-lg font-semibold text-gray-800 mb-6">出演モデル</p>
                       <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-                        {models.map((model) => (
+                        {mainModels.map((model) => (
                           <div key={model.name} className="flex flex-col items-center">
                             <div className="w-24 h-24 md:w-28 md:h-28 rounded-full overflow-hidden mb-3 border-4 border-white shadow-xl">
                               <img
@@ -169,11 +189,60 @@ export default function AwardsCeremonySection() {
                                 className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
                               />
                             </div>
-                            <Badge className={`${model.bgColor} ${model.textColor} px-4 py-2 text-sm font-semibold`}>
+                            <Badge className={`${model.bgColor} ${model.textColor} px-4 py-2 text-sm font-semibold mb-2`}>
                               {model.name}
                             </Badge>
+                            <a
+                              href={model.xLink}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="inline-flex items-center justify-center"
+                            >
+                              <Button
+                                size="sm"
+                                variant="outline"
+                                className="flex items-center gap-1 hover:bg-gray-100"
+                              >
+                                <Twitter className="w-4 h-4" />
+                                <span className="text-xs">X</span>
+                              </Button>
+                            </a>
                           </div>
                         ))}
+                      </div>
+                    </div>
+
+                    {/* スペシャル出演 */}
+                    <div className="bg-gradient-to-r from-yellow-50 to-orange-50 rounded-xl p-6 shadow-sm">
+                      <p className="text-lg font-semibold text-gray-800 mb-6">
+                        ✨ スペシャル出演 ✨
+                      </p>
+                      <div className="flex flex-col items-center">
+                        <div className="w-28 h-28 md:w-32 md:h-32 rounded-full overflow-hidden mb-3 border-4 border-yellow-300 shadow-xl">
+                          <img
+                            src={specialModel.photo}
+                            alt={specialModel.name}
+                            className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
+                          />
+                        </div>
+                        <Badge className={`${specialModel.bgColor} ${specialModel.textColor} px-4 py-2 text-sm font-semibold mb-2`}>
+                          {specialModel.name}
+                        </Badge>
+                        <a
+                          href={specialModel.xLink}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center justify-center"
+                        >
+                          <Button
+                            size="sm"
+                            variant="outline"
+                            className="flex items-center gap-1 hover:bg-gray-100"
+                          >
+                            <Twitter className="w-4 h-4" />
+                            <span className="text-xs">X</span>
+                          </Button>
+                        </a>
                       </div>
                     </div>
                   </div>
