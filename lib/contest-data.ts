@@ -132,8 +132,8 @@ export const contestData = {
     },
     {
       photo: "https://contest001.pinyogram.com/pinyogram-contest-images/gallery/012.jpg",
-      photographer: "瀬戸環奈",
-      model: "かずひ",
+      photographer: "かずひ",
+      model: "瀬戸環奈",
       title: "佳作",
       comment: "真ん中に胸を持ってきてハイライトになっているので強調はできています。肩口から顔も比較的明るいので視線誘導はある程度できています。",
     },
