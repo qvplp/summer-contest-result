@@ -36,7 +36,7 @@ export default function AwardsCeremonySection() {
     },
 
     {
-      name: "雛なの",
+      name: "雛なの（調整中）",
       photo: "https://contest001.pinyogram.com/pinyogram-contest-images/models/IMG_8FFB18914A46-1.jpeg",
       bgColor: "bg-blue-100",
       textColor: "text-blue-700",
