@@ -30,7 +30,7 @@ export default function EventInfo() {
                 <div className="bg-gradient-to-r from-purple-50 to-purple-100 p-5 rounded-xl border border-purple-200">
                   <div className="flex items-start justify-between">
                     <div>
-                      <p className="font-bold text-purple-800 text-lg">9月16日</p>
+                      <p className="font-bold text-purple-800 text-lg">9月16日　詳細は後日発表いたします</p>
                     </div>
                     <Users className="w-6 h-6 text-purple-500" />
                   </div>
@@ -43,7 +43,7 @@ export default function EventInfo() {
                 rel="noopener noreferrer"
               >
                 <Button className="w-full bg-gradient-to-r from-purple-500 to-blue-500 text-white hover:from-purple-600 hover:to-blue-600 transition-all">
-                  撮影会の詳細・申込はこちら
+                  表彰式&撮影会の詳細・申込はこちら
                   <ArrowRight className="w-4 h-4 ml-2" />
                 </Button>
               </a>

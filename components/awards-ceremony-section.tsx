@@ -278,7 +278,7 @@ export default function AwardsCeremonySection() {
             <ul className="text-sm text-gray-600 space-y-2">
               <li>• 表彰式は無料でご参加いただけます</li>
               <li>• セッション撮影会は有料となります（詳細は申込フォームにて）</li>
-              <li>• 会場へのアクセス：Gスタ　〒111-0053 東京都台東区浅草橋５丁目３−２ 秋葉原スクエアビル ４F　https://maps.app.goo.gl/dZXv8yj1BzPRY4zJA?g_st=ipc</li>
+              <li>• 会場へのアクセス：Gスタ　〒111-0053 東京都台東区浅草橋５丁目３−２ 秋葉原スクエアビル ４F</li>
               <li>• お問い合わせ：account@pinyogram.com</li>
             </ul>
           </CardContent>
