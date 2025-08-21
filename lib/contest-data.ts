@@ -327,8 +327,8 @@ export const contestData = {
     },
     {
       photo: "https://contest001.pinyogram.com/pinyogram-contest-images/gallery/012.jpg",
-      photographer: "瀬戸環奈",
-      model: "かずひ",
+      photographer: "かずひ",
+      model: "瀬戸環奈",
       title: "作品",
     },
     {
