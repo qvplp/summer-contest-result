@@ -147,11 +147,11 @@ export default function AwardsCeremonySection() {
                     <div className="grid md:grid-cols-2 gap-4 mb-6">
                       <div className="bg-white rounded-lg p-4 shadow-sm">
                         <p className="font-bold text-pink-600 mb-2">1部撮影会</p>
-                        <p className="text-gray-700 font-semibold">18:30〜19:20</p>
+                        <p className="text-gray-700 font-semibold">18:30〜19:10</p>
                       </div>
                       <div className="bg-white rounded-lg p-4 shadow-sm">
                         <p className="font-bold text-purple-600 mb-2">2部撮影会</p>
-                        <p className="text-gray-700 font-semibold">19:30〜20:20</p>
+                        <p className="text-gray-700 font-semibold">19:40〜20:20</p>
                       </div>
                     </div>
                     
