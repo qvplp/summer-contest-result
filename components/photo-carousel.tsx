@@ -100,8 +100,8 @@ export default function PhotoCarousel() {
               </span>
             </h1>
             <div className="mt-8 space-y-2">
-              <p className="text-3xl md:text-4xl font-bold text-white drop-shadow-lg">
-                結果発表
+              <p className="text-3xl md:text-4xl font-bold text-white drop-shadow-lg"> 結果発表
+              <br className="inline-block"/> 9/9表彰式＆撮影会開催
               </p>
               <p className="text-lg md:text-xl text-gray-200 drop-shadow-md">
                 
