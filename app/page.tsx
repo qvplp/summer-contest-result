@@ -25,27 +25,36 @@ export default function Home() {
   }
 
   return (
-    <main className="min-h-screen bg-white">
+    <main className="min-h-screen bg-white pt-14 md:pt-16">
+      
       {/* ヒーローセクション（カルーセル） */}
       <PhotoCarousel />
       
       {/* 表彰式案内 */}
-      <AwardsCeremonySection />
+      <section id="awards-ceremony">
+        <AwardsCeremonySection />
+      </section>
       
-      {/* 受賞作品展示 */}
-      <AwardSections />
+      {/* 受賞作品展示 - ここにIDを追加 */}
+      <section id="grand-prize">
+        <AwardSections />
+      </section>
       
       {/* 審査員紹介 */}
-      <JudgesSection />
+      <section id="judges-introduction">
+        <JudgesSection />
+      </section>
       
       {/* イベント情報 */}
-      <EventInfo />
+      <section id="related-events">
+        <EventInfo />
+      </section>
 
       {/* フッター */}
       <footer className="bg-gradient-to-r from-gray-900 to-gray-800 text-white">
         {/* SNSリンク */}
         <div className="max-w-7xl mx-auto px-4 py-8 flex justify-center">
-          <a
+          <a  
             href="https://x.com/pinyo_jp"
             target="_blank"
             rel="noopener noreferrer"

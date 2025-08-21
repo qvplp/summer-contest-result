@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 import { Noto_Sans_JP } from "next/font/google"
 import "./globals.css"
+import HeaderNavigation from "@/components/ui/header"
 
 const notoSansJP = Noto_Sans_JP({
   subsets: ["latin"],
@@ -21,7 +22,7 @@ export const metadata: Metadata = {
     siteName: "Pinyogram Contest",
     images: [
       {
-        url: "hhttps://contest001.pinyogram.com/pinyogram-contest-images/ogp/Screenshot%202025-08-21%20at%201.33.25.png",
+        url: "https://contest001.pinyogram.com/pinyogram-contest-images/ogp/Screenshot%202025-08-21%20at%201.33.25.png",
         width: 1200,
         height: 630,
         alt: "ぴにょぐらむコラボ撮影会 - 結果発表"
@@ -61,7 +62,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ja" className={notoSansJP.variable}>
-      <body className="font-sans antialiased">{children}</body>
+      <body className="font-sans antialiased">
+        <HeaderNavigation />
+        {children}
+      </body>
     </html>
   )
 }

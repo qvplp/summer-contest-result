@@ -178,7 +178,7 @@ export default function AwardsCeremonySection() {
                     
                     {/* 出演モデル - メインモデル */}
                     <div className="bg-white rounded-xl p-6 shadow-sm mb-6">
-                      <p className="text-lg font-semibold text-gray-800 mb-6">出演モデル</p>
+                      <p className="text-lg font-semibold text-gray-800 mb-6">✨出演モデル✨</p>
                       <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
                         {mainModels.map((model) => (
                           <div key={model.name} className="flex flex-col items-center">
@@ -215,7 +215,7 @@ export default function AwardsCeremonySection() {
                     {/* スペシャル出演 */}
                     <div className="bg-gradient-to-r from-yellow-50 to-orange-50 rounded-xl p-6 shadow-sm">
                       <p className="text-lg font-semibold text-gray-800 mb-6">
-                        ✨ スペシャル出演 ✨
+                        スペシャル出演 
                       </p>
                       <div className="flex flex-col items-center">
                         <div className="w-28 h-28 md:w-32 md:h-32 rounded-full overflow-hidden mb-3 border-4 border-yellow-300 shadow-xl">
