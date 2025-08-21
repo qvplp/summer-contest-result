@@ -30,7 +30,7 @@ export default function EventInfo() {
                 <div className="bg-gradient-to-r from-purple-50 to-purple-100 p-5 rounded-xl border border-purple-200">
                   <div className="flex items-start justify-between">
                     <div>
-                      <p className="font-bold text-purple-800 text-lg">9月16日（月・祝）</p>
+                      <p className="font-bold text-purple-800 text-lg">9月16日</p>
                     </div>
                     <Users className="w-6 h-6 text-purple-500" />
                   </div>
