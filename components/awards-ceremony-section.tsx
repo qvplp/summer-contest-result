@@ -81,7 +81,7 @@ export default function AwardsCeremonySection() {
                     <Calendar className="w-5 h-5 text-pink-500 mt-0.5" />
                     <div>
                       <p className="font-semibold text-gray-800">開催日</p>
-                      <p className="text-gray-600">2025年9月9日（月）</p>
+                      <p className="text-gray-600">2025年9月9日</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-4 p-3 bg-purple-50 rounded-lg">
