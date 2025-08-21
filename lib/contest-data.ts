@@ -193,13 +193,7 @@ export const contestData = {
       title: "佳作",
       comment: "ポートレートでは珍しい二分割方で安定させている写真。顔、胸、ピースにハイライトを作っており見せたいところに目が行くように設計できている。黒髪に黒い水着とシンプルなので赤いリップも映えています。",
     },
-    {
-      photo: "https://contest001.pinyogram.com/pinyogram-contest-images/gallery/021.JPG",
-      photographer: "噂のサブアカ",
-      model: "",
-      title: "佳作",
-      comment: "表情のタイミングとしぐさがのバランスが良い。背景の処理も気持ちいい",
-    },
+
     {
       photo: "https://contest001.pinyogram.com/pinyogram-contest-images/gallery/022.jpg",
       photographer: "でんでん",
