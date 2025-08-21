@@ -31,7 +31,7 @@ export const contestData = {
       model: "鈴木Mob.",
       title: "審査員賞",
       judgeName: "関根いおん",
-      comment: "波、人物、空と三分割、さらに左の青い鉄筋が対角で入ることでの視線誘導が上手く行っており、日の丸構図で真ん中に配置された被写体の豊かな表情が映える一枚に仕上がっています。",
+      comment: "波、人物、空と三分割、さらに右の青い鉄筋が対角で入ることでの視線誘導が上手く行っており、日の丸構図で真ん中に配置された被写体の豊かな表情が映える一枚に仕上がっています。",
     },
     {
       photo: "https://contest001.pinyogram.com/pinyogram-contest-images/winners%3A/judge-award-4.jpeg",
