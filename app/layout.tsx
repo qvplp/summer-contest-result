@@ -2,6 +2,7 @@ import type { Metadata } from "next"
 import { Noto_Sans_JP } from "next/font/google"
 import "./globals.css"
 import HeaderNavigation from "@/components/ui/header"
+import Script from 'next/script'
 
 const notoSansJP = Noto_Sans_JP({
   subsets: ["latin"],
@@ -63,6 +64,20 @@ export default function RootLayout({
   return (
     <html lang="ja" className={notoSansJP.variable}>
       <body className="font-sans antialiased">
+        {/* Google Analytics */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-0VZVXJTM7L"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-0VZVXJTM7L');
+          `}
+        </Script>
+        
         <HeaderNavigation />
         {children}
       </body>

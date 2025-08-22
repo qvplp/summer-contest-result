@@ -440,36 +440,41 @@ export const contestData = {
       title: "作品",
     },
   ],
-  judges: [
-    {
-      name: "くりえみ KURIEMI",
-      title: "Pinyokio株式会社CEO / AiHUB株式会社CMO",
-      photo: "https://contest001.pinyogram.com/pinyogram-contest-images/judges/kuriemi.png",
-      bio: "起業家・会社経営者として活動する一方で、モデル・タレントとしても幅広く活躍。2023年12月、日本初のAIキャラクター芸能事務所を設立。自己プロデュース力を武器に、次世代のエンタメ業界を切り拓いている。",
-    },
-    {
-      name: "井上博明",
-      title: "アニメプロデューサー",
-      photo: "https://contest001.pinyogram.com/pinyogram-contest-images/judges/inoue.png",
-      bio: "手塚治虫の元で『鉄腕アトム』に制作進行として参加後、『オネアミスの翼』などを手がけ、ガイナックス副社長を歴任。『天地無用！』シリーズや『PERFECT BLUE』『BOOWY PV Marionette』『TM NETWORK CAROL アルバムジャケット』『秋元康原作アニメ ICE』など多くの話題作をプロデュース。",
-    },
-    {
-      name: "福島裕二",
-      title: "写真家",
-      photo: "https://contest001.pinyogram.com/pinyogram-contest-images/judges/fukushima.PNG",
-      bio: "長野県出身。写真家の上野勇氏に師事し1997年独立。2003年に写真事務所ハーベストタイムを設立。女性を主題とした撮影を得意とし、商業撮影や雑誌など多数の媒体にて活躍。その撮影手法は多岐に及ぶ。写真ギャラリー「Atelier Y」を原宿で運営し、精力的に写真展を行っている。",
-    },
-    {
-      name: "大森和幸（ooxo）",
-      title: "写真家 / 編集長",
-      photo: "https://contest001.pinyogram.com/pinyogram-contest-images/judges/oosan.jpg",
-      bio: "ポートレート専門雑誌PASHA STYLE編集長でありながら、自らは写真家として活動する。国際的フォトコンIFA、BIFA、APA AWARD、IPAなど受賞、入選多数。写真集、雑誌グラビア、ファッションブランド広告などを精力的にこなしている。",
-    },
-    {
-      name: "関根いおん",
-      title: "プロダクトデザイナー / フォトグラファー",
-      photo: "https://contest001.pinyogram.com/pinyogram-contest-images/judges/sekine.jpg",
-      bio: "IT企業で役員を務める。2018年より写真家としても活動を始める。FRUITS ZIPPERやわーすた、でか美ちゃんなど多くのタレントの撮影を担当。IT企業での経験を生かし、撮影のみならず企画からプロモーション設計まで行うことで、多くのタレントや事務所、媒体からの支持を得ている。",
-    },
-  ],
+judges: [
+  {
+    name: "くりえみ KURIEMI",
+    title: "Pinyokio株式会社CEO / AiHUB株式会社CMO",
+    photo: "https://contest001.pinyogram.com/pinyogram-contest-images/judges/kuriemi.png",
+    bio: "起業家・会社経営者として活動する一方で、モデル・タレントとしても幅広く活躍。2023年12月、日本初のAIキャラクター芸能事務所を設立。自己プロデュース力を武器に、次世代のエンタメ業界を切り拓いている。",
+    xHandle: "kurita__emi" // 追加
+  },
+  {
+    name: "井上博明",
+    title: "アニメプロデューサー",
+    photo: "https://contest001.pinyogram.com/pinyogram-contest-images/judges/inoue.png",
+    bio: "手塚治虫の元で『鉄腕アトム』に制作進行として参加後、『オネアミスの翼』などを手がけ、ガイナックス副社長を歴任。『天地無用！』シリーズや『PERFECT BLUE』『BOOWY PV Marionette』『TM NETWORK CAROL アルバムジャケット』『秋元康原作アニメ ICE』など多くの話題作をプロデュース。",
+    // xHandle未設定（井上氏のXアカウント情報がないため）
+  },
+  {
+    name: "福島裕二",
+    title: "写真家",
+    photo: "https://contest001.pinyogram.com/pinyogram-contest-images/judges/fukushima.PNG",
+    bio: "長野県出身。写真家の上野勇氏に師事し1997年独立。2003年に写真事務所ハーベストタイムを設立。女性を主題とした撮影を得意とし、商業撮影や雑誌など多数の媒体にて活躍。その撮影手法は多岐に及ぶ。写真ギャラリー「Atelier Y」を原宿で運営し、精力的に写真展を行っている。",
+    xHandle: "f_yug_harvest" // 追加
+  },
+  {
+    name: "大森和幸（ooxo）",
+    title: "写真家 / 編集長",
+    photo: "https://contest001.pinyogram.com/pinyogram-contest-images/judges/oosan.jpg",
+    bio: "ポートレート専門雑誌PASHA STYLE編集長でありながら、自らは写真家として活動する。国際的フォトコンIFA、BIFA、APA AWARD、IPAなど受賞、入選多数。写真集、雑誌グラビア、ファッションブランド広告などを精力的にこなしている。",
+    xHandle: "ooxo_web" // 追加
+  },
+  {
+    name: "関根いおん",
+    title: "プロダクトデザイナー / フォトグラファー",
+    photo: "https://contest001.pinyogram.com/pinyogram-contest-images/judges/sekine.jpg",
+    bio: "IT企業で役員を務める。2018年より写真家としても活動を始める。FRUITS ZIPPERやわーすた、でか美ちゃんなど多くのタレントの撮影を担当。IT企業での経験を生かし、撮影のみならず企画からプロモーション設計まで行うことで、多くのタレントや事務所、媒体からの支持を得ている。",
+    xHandle: "nessie44" // 追加
+  },
+]
 }
