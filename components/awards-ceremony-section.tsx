@@ -17,15 +17,6 @@ export default function AwardsCeremonySection() {
     },
 
     {
-       name: "姫野みなみ",
-      photo: "https://contest001.pinyogram.com/pinyogram-contest-images/models/JPEG%E7%94%BB%E5%83%8F-4881-81B0-CA-0.jpeg",
-      bgColor: "bg-pink-100",
-      textColor: "text-pink-700",
-      xLink: "https://x.com/minamihimeno000?s=21"     
-     
-    },
-
-    {
       
  name: "長谷川晴奈",
       photo: "https://contest001.pinyogram.com/pinyogram-contest-images/models/JPEG%E7%94%BB%E5%83%8F-416A-98B6-41-0.jpeg",
@@ -179,9 +170,9 @@ export default function AwardsCeremonySection() {
                     {/* 出演モデル - メインモデル */}
                     <div className="bg-white rounded-xl p-6 shadow-sm mb-6">
                       <p className="text-lg font-semibold text-gray-800 mb-6">✨出演モデル✨</p>
-                      <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+                      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 justify-items-center">
                         {mainModels.map((model) => (
-                          <div key={model.name} className="flex flex-col items-center">
+                          <div key={model.name} className="flex flex-col items-center w-full max-w-[200px]">
                             <div className="w-24 h-24 md:w-28 md:h-28 rounded-full overflow-hidden mb-3 border-4 border-white shadow-xl">
                               <img
                                 src={model.photo}
